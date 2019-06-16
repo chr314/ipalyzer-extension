@@ -1,7 +1,9 @@
 {
   "name": "IP Analyzer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "IP Analyzer",
+  "homepage_url": "https://github.com/chr314/ipalyzer-extension",
+  "author": "Aslanov Christoforos",
   "permissions": [
     "http://*/*",
     "https://*/*",
