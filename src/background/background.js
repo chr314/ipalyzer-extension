@@ -2,7 +2,6 @@ var tab_ip = [];
 
 chrome.webRequest.onResponseStarted.addListener(
     data => {
-        console.log(data);
         tab_ip[data.tabId] = data.ip;
     },
     {
